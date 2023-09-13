@@ -57,4 +57,4 @@ jobs:
       shell: powershell.exe
     steps:
       - checkout
-      - run: choco install --yes cmake --installargs 'ADD_CMAKE_TO_PATH=System'
+      # - run: choco install --yes cmake --installargs 'ADD_CMAKE_TO_PATH=System'
