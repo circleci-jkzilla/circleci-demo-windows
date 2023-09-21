@@ -1,9 +1,9 @@
 version: 2.1
 orbs:
-  win: circleci/windows@5.0
+  win: circleci/windows@5.0.0
 jobs:
   build:
-    executor: win/server-2019:current
+    executor: win/default
     steps:
       - run: Write-Host 'Hello, Windows'
 workflows:
